@@ -1,0 +1,12 @@
+Documentation References:
+1. https://www.ovh.com/blog/getting-external-traffic-into-kubernetes-clusterip-nodeport-loadbalancer-and-ingress/
+
+
+Minikube 
+ - runs a VM with ip `minikube ip`
+ - login to minikube using `minikube ssh`. Can run docker related commands inside the minikube like `docker ps`.
+ - 
+
+Node Port
+- Communication Path: client -> node port on the VM -> Kubernetes service Port -> kubernestes pod/container port
+- 
